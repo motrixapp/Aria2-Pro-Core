@@ -33,7 +33,7 @@ jobs:
           BUILDER_IMAGE: debian:11
           BUILD_SCRIPT: aria2-gnu-linux-cross-build-arm64.sh
         - PLATFORMS: armhf
-          BUILDER_IMAGE: ubuntu:16.04
+          BUILDER_IMAGE: ubuntu:20.04
           BUILD_SCRIPT: aria2-gnu-linux-cross-build-armhf.sh
         - PLATFORMS: i386
           BUILDER_IMAGE: debian:10
