@@ -1,0 +1,8 @@
+!.gitkeep
+.DS_Store
+.idea/
+.vs/
+.vscode/
+*.log
+node_modules/
+thumbs.db
